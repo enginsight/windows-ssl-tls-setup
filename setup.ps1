@@ -1,10 +1,10 @@
-#         #
-#     #   # #  Enginsight GmbH
-#     # # # #  Geschäftsführer: Mario Jandeck, Eric Range
-#     # #   #  Hans-Knöll-Straße 6, 07745 Jena
-#       #   
+    #
+#   # #   Enginsight GmbH
+# # # #   Geschäftsführer: Mario Jandeck, Eric Range
+# #   #   Hans-Knöll-Straße 6, 07745 Jena
+  #   
 
-#Disables outdated protocols that are not save anymore but still active.
+# Disables outdated protocols that are not save anymore but still active.
 
 # Disable old protocols SSLv2.0
 New-Item -Path "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\Schannel\Protocols\SSL 2.0\Server" -Force
